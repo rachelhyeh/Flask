@@ -12,4 +12,4 @@
   app.py + templates/library.html
   
 ## Result
-![Alt Text](https://github.com/rachelhyeh/Flask/blob/master/display.PNG)
+![Alt Text](https://github.com/rachelhyeh/Flask/blob/master/Library/display.PNG)
