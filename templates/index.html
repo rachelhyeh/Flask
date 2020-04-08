@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<!-- <h1>Template</h1> -->
+<!-- <div class="course"> -->
+    <!-- Header -->
+<h1 style="text-align: center">Library</h1>
+
+
+<!-- Two inputs for form -->
+<form action="/" method="POST">
+    <label>Course: </label><input type="text" name="course_name" id="course_name" placeholder="Enter course name..."><br/>
+    <label>Book: </label><input type="text" name="book_name" id="book_name" placeholder="Enter book name..."><br/>
+    <input type="submit" value="Save">
+</form>
+
+<!-- </div> -->
+{% endblock %}

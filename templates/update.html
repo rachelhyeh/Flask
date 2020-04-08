@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Library</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="course">
+    <!-- Header -->
+    <h1 style="text-align: center">Update Task</h1>
+    
+    <!-- Don't need the table, only the updated -->
+        
+    <form action="/update/{{task.id}}" method="POST">
+        <!-- value to show the tasks on the task -->
+        <input type="text" name="content" id="content" value="{{task.content}}">
+        <input type="submit" value="Update">
+    </form>
+
+</div>
+{% endblock %}
