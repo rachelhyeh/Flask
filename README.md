@@ -12,5 +12,5 @@
   app.py + templates/library.html
   
 ## Result
-Webpage will be display as following: </br>
+Webpage will be displayed as following: </br>
   ![Alt Text](https://github.com/rachelhyeh/Flask/blob/master/Library/display.PNG)
