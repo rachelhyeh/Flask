@@ -1,4 +1,5 @@
-# Flask - Simple Library Manager
+# Flask
+Simple Library Manager
 
 ## Using flask in Python to build a simple library database in a webpage.
 - Running with default data: books name under its courses
